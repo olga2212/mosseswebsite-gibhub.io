@@ -1,0 +1,579 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    background-color:rgba(59, 58, 50, 0.8);
+    padding: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.item {
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.item:hover{
+    font-size: 23px;
+    color: greenyellow;
+}
+
+#myVideo {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(192, 191, 179, 0.8);
+}
+
+.first {
+    margin-right: auto;
+    text-transform: none;
+    font-size: 30px;
+    color:greenyellow ;
+}
+
+.put {
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn {
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: greenyellow;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.colour {
+    color: rgb(11, 10, 10);
+    font-size: 25px;
+}
+
+.first1 {
+    text-transform: none;
+    font-size: 26px;
+    color:greenyellow;
+}
+.par1 {
+    font-size: 25px;
+    color: black;
+}
+
+.mos {
+    width: 350px;
+}
+
+.moss {
+    background-color:  rgba(59, 58, 50, 0.8);
+    padding: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 18px;  
+}
+
+.moss01 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.moss001 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 10px;  
+}
+
+.bar {
+    font-size: 22px;
+}
+
+.block {
+    background-color: white;
+    padding: 20px;
+}
+
+.our {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-size:30px;
+}
+
+.low {
+    display: flex;
+    max-width:1200px;
+    margin: auto;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    flex: 1;
+    text-align: justify;
+}
+
+.list {
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(45, 44, 36, 0.8);
+    padding: 15px;    
+}
+
+.icons {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.icon {
+    width: 40px;
+    padding: 15px;
+}
+
+.icon:hover {
+    width: 55px;
+}
+
+.free {
+    color:greenyellow;
+    font-family: 'Kanit', sans-serif;
+    margin: 30px 70px;
+    font-size:20px;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.free:hover {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size:25px;
+}
+
+.free1 {
+display: none;
+}
+
+
+.list1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+}
+
+.btn1 {
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: greenyellow;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+.btn1:hover {
+    background-color: yellowgreen;
+}
+.picture {
+    width: 200px;
+}
+
+.picture:hover {
+    width: 230px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h3:hover {
+    color: greenyellow;
+}
+
+.picture1 {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.picture0 {
+    width:250px;
+    margin: 5px;
+    transition: 1s;
+}
+
+.picture0:hover {
+    transform: scale(2.0);
+    border-radius: 20px;
+}
+
+.Anastaisha{
+            text-align: center;
+            font-size: 12px;
+             text-decoration: none;
+            color: #070707;
+          }
+
+.Anas{display:flex; 
+justify-content: center;}
+
+
+
+/* Средний экран */
+@media all and (max-width: 920px){
+body {
+    background-color: rgba(197, 216, 200, 0.8);
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item {
+    padding: 5px;
+    font-size: 20px;
+}
+    
+.item:hover{
+    font-size: 25px;
+}
+
+.first1 {
+    font-size: 35px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.put {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+    
+.btn {
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: greenyellow;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: rgb(140, 178, 64);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.moss01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.moss001 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.low {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 40px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;  
+}
+
+.bar {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.list {
+    font-size: 30px;
+}
+
+.free1 {
+    display: block;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    display: inline-block;
+}
+
+.free1:hover {
+    color: yellowgreen;
+}
+
+.free {
+    display: none;
+}
+
+.list1{
+    font-size: 25px;
+}
+
+.list2{
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 40px;
+}
+    
+.new {
+    font-size: 50px;
+}
+
+.btn1 {
+    padding: 40px;
+    font-size: 40px;
+}
+
+.picture1 {
+    width: 400px;
+}
+
+.picture {
+    width: 300px;
+}
+
+.picture1:hover {
+    transform: scale(1.5);
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture0 {
+    width: 300px;
+}
+
+.picture0:hover {
+    transform: scale(1.5);
+    border-radius: 30px;
+}
+}
+
+
+/* Маленький экран */
+@media all and (max-width: 500px) {
+body {
+    background-color: rgba(143, 170, 147, 0.8);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item {
+    padding: 3px;
+    font-size: 15px;
+}
+    
+.item:hover{
+    font-size: 18px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.first1 {
+    font-size: 20px;
+}
+
+.colour {
+    font-size: 15px;
+}
+
+.put {
+    margin: 15px 15px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.btn {
+    margin: 15px 15px;
+    background-color: greenyellow;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.moss01 {
+    margin: 5px 5px;
+}
+
+.moss001 {
+    margin: 5px 5px;
+}
+
+.mos {
+    width: 180px;
+}
+
+.heading  {
+    font-size: 15px;
+}
+.bar {
+    font-size: 15px;
+}
+
+.low {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.list {
+    font-size: 16px;
+}
+
+.free1 {
+    font-size: 12px;
+    margin: 3px 5px;
+}
+
+.icon {
+    width: 20px;
+    padding: 3px;
+}
+
+.list1{
+    font-size: 18px;
+}
+
+.list2{
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 22px;
+}
+    
+.new {
+    font-size: 30px;
+}
+
+
+.line {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.btn1 {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.picture1 {
+    width: 270px;
+}
+
+.picture {
+    width: 180px;
+}
+
+.picture1:hover {
+    transform: scale(1.2);
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture0 {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.picture0:hover {
+    transform: scale(0.0);
+    border-radius: 40px;
+}
+
+}
